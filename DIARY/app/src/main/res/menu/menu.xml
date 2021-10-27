@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/saveNote"
+        android:icon="@drawable/ic_save"
+        android:title="item1"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/setTime"
+        android:title="Set time"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/setData"
+        android:title="Set date"
+        app:showAsAction="never"/>
+
+
+</menu>
